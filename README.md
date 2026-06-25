@@ -10,9 +10,10 @@ Hybrid multi-framework cybersecurity compliance audit of an enterprise Cisco net
 assessed against the CyberFundamentals Framework 2025 (Important level) issued by the
 Centre for Cybersecurity Belgium (CCB).
 
-The anonymized audit report is published in `report/`, and the board-level presentation of the audit
-in `presentation/` (PDF). See the Confidentiality section for what is intentionally
-redacted or not redistributed.
+The anonymized audit report is published in [`report/`](report/CyFun-Audit-Report-public.pdf), and the
+board-level presentation of the audit in [`presentation/`](presentation/CyFun-Audit-Fictitious-Board-Presentation.pdf)
+(PDF). See the [Confidentiality and data minimisation](#confidentiality-and-data-minimisation) section
+for what is intentionally redacted or not redistributed.
 
 ## Operational notice
 
@@ -25,9 +26,9 @@ section for what is redacted or kept local.
 
 | If you are a... | Start with | Time |
 | --- | --- | --- |
-| Recruiter or hiring manager | This README: Key result, CyFun maturity, Top 3 critical risks | 5 min |
-| GRC or compliance reader | The anonymized report in `report/`, plus the Frameworks and Findings sections below | 25 min |
-| Auditor or technical reviewer | The full report in `report/` and the board presentation in `presentation/` | 40 min |
+| Recruiter or hiring manager | This README: [Key result](#key-result), [CyFun maturity](#cyfun-maturity-result), [Top 3 critical risks](#top-3-critical-risks) | 5 min |
+| GRC or compliance reader | The [anonymized report](report/CyFun-Audit-Report-public.pdf), plus the [Frameworks](#frameworks-12) and [Findings](#findings) sections below | 25 min |
+| Auditor or technical reviewer | The [full report](report/CyFun-Audit-Report-public.pdf) and the [board presentation](presentation/CyFun-Audit-Fictitious-Board-Presentation.pdf) | 40 min |
 
 ## Overview
 
@@ -137,10 +138,13 @@ team's network design and Cisco Packet Tracer file.
 
 ## Confidentiality and data minimisation
 
-The report published in `report/` is an anonymized version. Personal names that appeared as test
-credentials inside the simulation have been removed from the text and redacted in the evidence
-screenshots. The audited team's source files (the network design document and the Packet Tracer
-simulation) and the scored CyFun workbook are not redistributed here. They are available on request. The board presentation in `presentation/` is the cleaned, publicly shareable version (educational marking, corrected severity tally, no third-party personal data).
+The report published in [`report/`](report/CyFun-Audit-Report-public.pdf) is an anonymized version.
+Personal names that appeared as test credentials inside the simulation have been removed from the text
+and redacted in the evidence screenshots. The audited team's source files (the network design document
+and the Packet Tracer simulation) and the scored CyFun workbook are not redistributed here. They are
+available on request. The board presentation in [`presentation/`](presentation/CyFun-Audit-Fictitious-Board-Presentation.pdf)
+is the cleaned, publicly shareable version (educational marking, corrected severity tally, no
+third-party personal data).
 
 ## Team and attribution
 
@@ -162,5 +166,5 @@ it is published publicly (TLP:CLEAR).
 
 Johan-Emmanuel Hatchi, junior cybersecurity analyst (BeCode Brussels, Blue and Red Team).
 
-- LinkedIn: https://www.linkedin.com/in/johan-emmanuel-hatchi/
-- GitHub: https://github.com/Jhatchi
+- LinkedIn: [johan-emmanuel-hatchi](https://www.linkedin.com/in/johan-emmanuel-hatchi/)
+- GitHub: [Jhatchi](https://github.com/Jhatchi)
