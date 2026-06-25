@@ -1,0 +1,17 @@
+# Local-only deliverables, never pushed
+_private/
+
+# Safety net: block binary deliverables anywhere
+.DS_Store
+~$*
+Thumbs.db
+*.tmp
+*.docx
+*.pkt
+*.pptx
+*.xlsx
+*.pdf
+
+# Exceptions: the cleaned public deliverables are intentionally published
+!report/CyFun-Audit-Report-public.pdf
+!presentation/CyFun-Audit-Fictitious-Board-Presentation.pdf
