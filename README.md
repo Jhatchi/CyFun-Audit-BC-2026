@@ -15,6 +15,9 @@ board-level presentation of the audit in [`presentation/`](presentation/CyFun-Au
 (PDF). See the [Confidentiality and data minimisation](#confidentiality-and-data-minimisation) section
 for what is intentionally redacted or not redistributed.
 
+> 📄 **The anonymized audit report is the canonical deliverable.**
+> [Download the report (PDF, 2.5 MB)](report/CyFun-Audit-Report-public.pdf), or view the [board presentation (PDF, 3.1 MB)](presentation/CyFun-Audit-Fictitious-Board-Presentation.pdf).
+
 ## Operational notice
 
 Publication authorized by BeCode lab coach (Thomas B.) on 2026-05-17 for portfolio use. BeCode Corp. is a
