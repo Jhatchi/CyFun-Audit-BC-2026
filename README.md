@@ -1,5 +1,11 @@
 # CyFun 2025 Compliance Audit, BeCode Corp. Secure Network Design
 
+[![Framework](https://img.shields.io/badge/framework-CyFun%202025%20Important-1f6feb.svg)](https://ccb.belgium.be/en/cyberfundamentals-framework)
+[![Regulation](https://img.shields.io/badge/regulation-NIS2%20%7C%20GDPR-orange.svg)](#frameworks-12)
+[![Standards](https://img.shields.io/badge/standards-ISO%2027001%20%7C%20NIST%20800--53%20%7C%20CIS%20v8.1-red.svg)](#frameworks-12)
+[![Maturity](https://img.shields.io/badge/CyFun%20maturity-1.13%20%2F%203-critical.svg)](#cyfun-maturity-result)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Johan--Emmanuel%20Hatchi-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/johan-emmanuel-hatchi/)
+
 Hybrid multi-framework cybersecurity compliance audit of an enterprise Cisco network design,
 assessed against the CyberFundamentals Framework 2025 (Important level) issued by the
 Centre for Cybersecurity Belgium (CCB).
@@ -7,6 +13,21 @@ Centre for Cybersecurity Belgium (CCB).
 The anonymized audit report is published in `report/`, and the board-level presentation of the audit
 in `presentation/` (PDF). See the Confidentiality section for what is intentionally
 redacted or not redistributed.
+
+## Operational notice
+
+Publication authorized by BeCode lab coach (Thomas B.) on 2026-05-17 for portfolio use. BeCode Corp. is a
+fictitious organization and the audited network is a simulated Cisco Packet Tracer lab, so the
+anonymized deliverables are shareable (TLP:CLEAR). See the Confidentiality and data minimisation
+section for what is redacted or kept local.
+
+## How to read this repository
+
+| If you are a... | Start with | Time |
+| --- | --- | --- |
+| Recruiter or hiring manager | This README: Key result, CyFun maturity, Top 3 critical risks | 5 min |
+| GRC or compliance reader | The anonymized report in `report/`, plus the Frameworks and Findings sections below | 25 min |
+| Auditor or technical reviewer | The full report in `report/` and the board presentation in `presentation/` | 40 min |
 
 ## Overview
 
@@ -99,6 +120,21 @@ technical actionability, and threat relevance.
 Indicative budget for short-term actions: 30,000 to 80,000 EUR depending on open source versus
 commercial choices. Reaching CyFun Important level is realistic within 6 to 12 months.
 
+## Repository layout
+
+```
+.
+├── README.md
+├── report/
+│   └── CyFun-Audit-Report-public.pdf                     Anonymized audit report (public)
+└── presentation/
+    └── CyFun-Audit-Fictitious-Board-Presentation.pdf     Cleaned board presentation (public)
+```
+
+Kept local only (under a gitignored `_private/`, available on request): the source audit report
+with real names, the editable board presentation (PPTX), the scored CyFun toolbox, and the audited
+team's network design and Cisco Packet Tracer file.
+
 ## Confidentiality and data minimisation
 
 The report published in `report/` is an anonymized version. Personal names that appeared as test
@@ -108,7 +144,7 @@ simulation) and the scored CyFun workbook are not redistributed here. They are a
 
 ## Team and attribution
 
-Audit team: Zoltan, Johan Hatchi, André. Personal contribution: report writing and regulatory mapping.
+Audit team: Zoltàn F., Johan-Emmanuel Hatchi, André P. Personal contribution: report writing and regulatory mapping.
 The audited network design was produced by a separate BeCode student team and is referenced here
 solely as the system under audit.
 
@@ -121,3 +157,10 @@ BeCode Corp. is a fictitious organization and the audited network is a simulated
 Tracer lab. The report is written in the format of a real compliance audit for training and
 portfolio purposes only. No real organization, system, or personal data is involved, which is why
 it is published publicly (TLP:CLEAR).
+
+## About
+
+Johan-Emmanuel Hatchi, junior cybersecurity analyst (BeCode Brussels, Blue and Red Team).
+
+- LinkedIn: https://www.linkedin.com/in/johan-emmanuel-hatchi/
+- GitHub: https://github.com/Jhatchi
